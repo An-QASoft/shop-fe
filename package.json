@@ -11,7 +11,8 @@
     "axios": "^1.7.1",
     "roboto-fontface": "*",
     "vue": "^3.4.0",
-    "vuetify": "^3.5.0"
+    "vuetify": "^3.5.0",
+    "vxe-table": "^3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

@@ -433,6 +433,11 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
 
+dom-zindex@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/dom-zindex/-/dom-zindex-1.0.2.tgz#2fb836c006d8d09af5663f84d50221a917592058"
+  integrity sha512-QceDZxPlvzhpg6e8szxNiKPUt5Y9SfFTe3nZy8og3JoPQPlAlzBzHa/lhDkhgeG3cjbKyQcuoic+wymF0o0d1Q==
+
 entities@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/entities/-/entities-4.5.0.tgz#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
@@ -823,6 +828,14 @@ vuetify@^3.5.0:
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.6.6.tgz#05954117664f3a2a1188bc8bb9a1f47f899e29f1"
   integrity sha512-7RkL0kuLsVUbc0YCwhPhVq54gSFKt5xv+SOrF01dxwJz7Ke3tAbvO616WhhQIfS78h1q/Ev952WJj5jpsdK58g==
 
+vxe-table@^3:
+  version "3.8.6"
+  resolved "https://registry.yarnpkg.com/vxe-table/-/vxe-table-3.8.6.tgz#6e053216400c7004f2809518ffa5a89b2b02f64a"
+  integrity sha512-Dv4tCnUOvKGfqbu0bLqXQSCCqP7MuN+w136kdUsAxuwh0QzFmCxKoZm0bkaq5b+O0pmHXJMIvwu6d0WlW7Jvmg==
+  dependencies:
+    dom-zindex "^1.0.2"
+    xe-utils "^3.5.26"
+
 webpack-sources@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
@@ -832,3 +845,8 @@ webpack-virtual-modules@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/webpack-virtual-modules/-/webpack-virtual-modules-0.6.1.tgz#ac6fdb9c5adb8caecd82ec241c9631b7a3681b6f"
   integrity sha512-poXpCylU7ExuvZK8z+On3kX+S8o/2dQ/SVYueKA0D4WEMXROXgY8Ez50/bQEUmvoSMMrWcrJqCHuhAbsiwg7Dg==
+
+xe-utils@^3.5.26:
+  version "3.5.26"
+  resolved "https://registry.yarnpkg.com/xe-utils/-/xe-utils-3.5.26.tgz#8b3255cc74c5d251e06cfb7a665ac3ed0931a9f3"
+  integrity sha512-u9R7RqWDumamToEelrCv2nVA2PBJSPPUubvmiMcuHeFxwbYeBsouoi/opejmr7AdPlSj92FifF7IKFzFrczU7w==

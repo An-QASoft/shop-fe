@@ -1,7 +1,18 @@
-<template></template>
+<template>
+  <div>
+    <vxe-table />
+  </div>
+</template>
 
 <script>
 import axiosInstance from './axiosConfig';
+import VXETable from 'vxe-table'
+
+export default {
+  components: {
+    VXETable
+  },
+}
 
 const fetchUsers = async () => {
   try {
