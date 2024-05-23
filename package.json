@@ -7,11 +7,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mdi/font": "7.0.96",
+    "@mdi/font": "^7.4.47",
     "axios": "^1.7.1",
     "roboto-fontface": "*",
     "vue": "^3.4.0",
+    "vue-router": "^4.3.2",
     "vuetify": "^3.5.0",
+    "vuex": "^4.1.0",
     "vxe-table": "^4.6.14"
   },
   "devDependencies": {
